@@ -1,0 +1,464 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* brandico */
+[class*="brandico-"]:before {
+	font-family: 'brandico', sans-serif;
+	text-shadow: 3px 3px 3px #aaa;
+	width: 2em;
+
+}
+
+@media screen and (max-width: 450px) {
+
+	.container {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.border1 {
+		order: 2;
+		width: 100%;
+	}
+
+	.main {
+		order: 3;
+	}
+
+	.logo {
+		width: 25vw;
+		order: 1;
+	}
+
+	.logoWrap {
+		width: 40%;
+		order: 1;
+	}
+
+	.titleName {
+		width: 60%;
+		order: 2;
+
+	}
+
+	.titleName h1 {
+		display: block;
+		font-size: 1em;
+		text-align: right;
+		margin: 0.6em 0.5em 0em 0;
+		color: #7d97ad;
+    }
+
+	.titleName h5 {
+		display: block;
+		font-size: 0.7em;
+		margin: 0.5em 0.6em 0em 0em;
+		text-align: right;
+		color: #7d97ad;
+	}
+
+	.header {
+		order: 1;
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.border2 {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	.mainPicture {
+		margin-left: auto;
+		margin-right: auto;
+		order: 1;
+	}
+
+	.mainPicture img {
+		width: 100vw;
+		margin: 0;
+	}
+
+	.workPicture {
+	    display: block;
+	    width: 90vw;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.featured {
+	    order: 2;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+	.border2 {
+	    order: 3;
+	}
+
+	.featured h2 {
+	    text-align: center;
+	    margin-bottom: 10px;
+	    color: #7d97ad;
+	}
+
+	.work {
+	    text-align: center;
+		color: #2d3c49;
+		padding-bottom: 10px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	a:hover {
+	    color: #02b3e4;
+	}
+
+	footer {
+	    text-align: center;
+	    color: #2d3c49;
+	    margin-bottom: 0px;
+	    margin-right: auto;
+	    margin-left: auto;
+	    order: 4;
+	}
+
+	.main{
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+
+	.main hr {
+	    order: 3;
+	}
+
+	.featuredWork {
+	    display: flex;
+	    flex-wrap: wrap;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+	.work {
+	    order: 3;
+	    margin-right: auto;
+	    margin-left: auto;
+
+	}
+
+
+}
+
+@media screen and (min-width: 451px) and (max-width: 800px) {
+	.container {
+		width: 100%;
+	}
+
+
+	.logo {
+		width: 25vw;
+		order: 1;
+	}
+
+
+	.logoWrap {
+		width: 40%;
+		order: 1;
+	}
+
+
+	.titleName {
+		width: 60%;
+		order: 2;
+
+	}
+
+
+	.titleName h1 {
+		display: block;
+		font-size: 1.5em;
+		text-align: right;
+		margin: 0.5em 0.6em 0em 0em;
+		color: #7d97ad;
+
+	}
+
+
+	.titleName h5 {
+		display: block;
+		font-size: 0.9em;
+		margin: 0.5em 0.6em 0em 0em;
+		text-align: right;
+		color: #7d97ad;
+	}
+
+
+	.header {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+
+	hr {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+
+	.mainPicture {
+		margin-left: auto;
+	    margin-right: auto;
+		order: 1;
+	}
+
+
+	.mainPicture img {
+		width: 100vw;
+		margin: 0;
+	}
+
+
+	.workPicture {
+	    display: block;
+	    width: 90vw;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+
+	.featured {
+	    order: 2;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+
+	.featured h2 {
+	    text-align: center;
+	    margin-bottom: 15px;
+	    color: #7d97ad;
+	    font-size: 35px;
+	}
+
+
+	.featuredWork {
+	    display: flex;
+	    flex-wrap: wrap;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+
+	.work {
+	    order: 3;
+	    margin-right: auto;
+	    margin-left: auto;
+
+	}
+
+
+	.work h4 {
+	    text-align: center;
+	    color: #2d3c49;
+	    font-size: 30px;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	}
+
+
+	.work, a {
+	    font-size: 20px;
+	    text-align: center;
+	    color: #2d3c49;
+        margin-top: 10px;
+        padding-bottom: 10px;
+	}
+
+
+	a {
+	    text-decoration: none;
+	}
+
+
+	a:hover {
+	    color: #02b3e4;
+	}
+
+
+	footer {
+	    text-align: center;
+	    color: #2d3c49;
+	    margin-bottom: 0px;
+	    order: 4;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+
+	footer p {
+	    margin:5px auto 5px auto;
+	}
+
+
+	.main{
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+
+
+    .main hr {
+	    order: 3;
+    }
+
+}
+
+@media screen and (min-width: 801px) {
+	.container {
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.logo {
+		width: 15vw;
+		order: 1;
+	}
+
+	.logoWrap {
+		width: 40%;
+		order: 1;
+	}
+
+	.titleName {
+		width: 60%;
+		order: 2;
+
+	}
+
+	.titleName h1 {
+		display: block;
+		font-size: 2.8em;
+		text-align: right;
+		margin: 0.5em 0.1em 0em 0em;
+		color: #7d97ad;
+
+	}
+
+	.titleName h5 {
+		display: block;
+		font-size: 0.9em;
+		margin: 0.5em 0.6em 0em 0em;
+		text-align: right;
+		color: #7d97ad;
+	}
+
+	.header {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		height: 20%;
+	}
+
+	hr {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	.mainPicture {
+		order: 1;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+	}
+
+	.mainPicture img {
+		display: block;
+		width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.workPicture {
+		display: inline;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border-radius: 10px;
+	}
+
+	.featured {
+	    order: 2;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 100%;
+	}
+
+	.featured h2 {
+	    text-align: center;
+	    margin-bottom: 15px;
+	    color: #7d97ad;
+	    font-size: 35px;
+	}
+
+	.featuredWork {
+	    display: flex;
+	    flex-wrap: wrap;
+	    position: relative;
+	    justify-content: space-between;
+	    width: 100%;
+	}
+
+	.work {
+	    width: 32%;
+	}
+
+	.work h4 {
+	    text-align: center;
+	    color: #2d3c49;
+	    font-size: 30px;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	}
+
+	.work, a {
+	    font-size: 20px;
+	    text-align: center;
+	    color: #2d3c49;
+        margin-top: 10px;
+        padding-bottom: 10px;
+	}
+
+	a {
+	    text-decoration: none;
+	}
+
+	a:hover {
+	    color: #02b3e4;
+    }
+
+	footer {
+	    text-align: center;
+	    color: #2d3c49;
+	    margin-bottom: 0px;
+	    order: 3;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+	.main {
+	    display: flex;
+	    flex-wrap: wrap;
+    }
+
+	.main hr {
+	    order: 3;
+	}
+
+}

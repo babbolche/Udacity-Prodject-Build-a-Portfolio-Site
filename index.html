@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project: Portfolio Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=brandico">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <!--Logo picture made with https://www.onlinelogomaker.com -->
+        <header class="header">
+            <div class="logoWrap">
+            <img src="images/fixed/logo.png" class="logo">
+            </div>
+            <div class="titleName">
+                <h1>MARINA RADEVA</h1>
+                <h5>FUTURE FRONT-END NINJA</h5>
+            </div>
+        </header>
+
+        <hr class="border1">
+
+        <!-- All pictures are downloaded free from https://www.pexels.com -->
+
+        <main class="main">
+            <picture class="mainPicture">
+                <source media="(max-width: 450px)" srcset="images/small/pexels-photo-dream.jpg">
+                <source media="(max-width: 750px)" srcset="images/medium/pexels-photo-dream.jpg">
+                <img src="images/pexels-photo-dream.jpg" alt="Dream work">
+            </picture>
+
+            <article class="featured">
+                <h2>Featured Work</h2>
+                <div class="featuredWork">
+                    <div class="work">
+                        <div>
+                            <img src="images/small/pexels-photo-coding.jpg" alt="coding" class="workPicture">
+                        </div>
+                        <h4>PROJECTS</h4>
+                        <a href="#" target="_blank">Take a look</a>
+                    </div>
+                    <div class="work">
+                        <div>
+                            <img src="images/small/pexels-photo-laptop-tablet.jpg" alt="testing apps" class="workPicture">
+                        </div>
+                        <h4>TESTING APPS</h4>
+                        <a href="#" target="_blank">Take a look</a>
+                    </div>
+                    <div class="work">
+                        <div>
+                            <img src="images/small/pexels-photo-working.jpg" alt="creating design" class="workPicture">
+                        </div>
+                        <h4>DESIGNS</h4>
+                        <a href="#" target="_blank">Take a look</a>
+                    </div>
+                </div>
+            </article>
+
+            <hr class="border2">
+
+            <footer>
+                <p>Made by Marina Radeva</p>
+                <div id="brandico">
+                    <a href="#" target="_blank" class="brandico-linkedin-rect">Profile</a>
+                </div>
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
